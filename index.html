@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <div id="main">
+    <h1 id="title">
+      freeCodeCamp Survey Form
+    </h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form id="survey-form">
+
+      <div  class="color-white margin-l-r-45">
+        <label id="name-label" for="name" class="font-w-200">Name</label>
+        <input id="name" required type="text" placeholder="Enter your name">
+      </div>
+
+      <div  class="margin-t-28 color-white margin-l-r-45 line-height-24">
+        <label id="email-label" for="email" class="font-w-200">Email</label>
+        <input id="email" required type="email" placeholder="Enter you Email">
+      </div>
+
+      <div id="age" class="margin-t-28 color-white margin-l-r-45 line-height-24">
+        <label id="number-label" for="number" class="font-w-200">Age (<strong>optional</strong>)</label>
+        <input required id="number" type="number" min="10" max="99" step="1" placeholder="Age">
+      </div>
+
+      <div class="line-height-24 margin-l-r-45 margin-t-28 color-white ">
+        <label for="">
+          Which option best describes your current role?
+        </label>
+        <br>
+        <select id="dropdown">
+          <option value="" disabled selected>Select current role</option>
+          <option value="">Student</option>
+          <option value="">Fulltime learn</option>
+          <option value="">Fulltime work</option>
+          <option value="">not say</option>
+          <option value="">other</option>
+        </select>
+      </div>
+
+      <div id="recommend-radio" class="color-white margin-l-r-45 margin-t-28">
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+
+        <input name="aaa" id="Definitely" type="radio" value="Definitely">
+        <label for="Definitely">Definitely</label>
+        <br>
+        <input name="aaa" id="Maybe" type="radio" value="Maybe">
+        <label for="Maybe">Maybe</label>
+        <br>
+        <input name="aaa" id="Notsure" type="radio" value="Not sure">
+        <label for="Notsure">Not sure</label>
+        <br>
+
+      </div>
+
+      <div class="line-height-24 margin-l-r-45 margin-t-28 color-white ">
+        <label for="">
+          What is your favorite feature of freeCodeCamp?
+        </label>
+        <br>
+        <select id="dropdown2">
+          <option value="" disabled selected>Select an option</option>
+          <option value="">Challenges</option>
+          <option value="">Projects</option>
+          <option value="">Community</option>
+          <option value="">Open source</option>
+        </select>
+      </div>
+
+      <div id="improve" class="line-height-24 margin-l-r-45 color-white margin-t-28">
+        <p>What would you like to see improved? (<strong>Check all that apply</strong>)</p>
+
+        <input class="mt1 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Front-end Projects</label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Back-end Projects
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Data Visualization
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Challenges
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Open Source Community
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Gitter help rooms
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Videos</label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">City Meetups
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Wiki</label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Forum
+        </label>
+        <br>
+        <input class="mt10 mr5" type="checkbox" name="improve1" id="improve1" value="improve1">
+        <label for="improve1">Additional Courses
+        </label>
+        <br>
+      </div>
+
+      <div id="text-area" class="color-white margin-l-r-45 margin-t-28 line-height-24">
+        <p>Any comments or suggestions?</p>
+        <textarea name="" id="text-area-box"  rows="5" placeholder="Ener your comment here..."></textarea>
+      </div>
+
+      <div class="margin-l-r-45">
+        <button id="submit">
+          Submit
+        </button>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

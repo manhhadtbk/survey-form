@@ -1,0 +1,47 @@
+@media only screen and (max-width: 800px) {
+  #survey-form {
+    width: 540px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 450px;
+  }
+
+  select {
+    width: 450px;
+  }
+
+  #submit {
+    width: 450px;
+  }
+
+  #text-area-box{
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #survey-form {
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  #submit {
+    width: 100%;
+  }
+
+  #text-area-box{
+    width: 100%;
+  }
+}

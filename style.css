@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.color-white {
+  color: white;
+}
+
+.margin-l-r-45 {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.margin-t-28 {
+  margin-top: 28px;
+}
+
+.font-w-200 {
+  font-weight: 200;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, rgba(101, 99, 202, 0.8), rgba(73, 71, 177, 0.7)),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 45px;
+}
+
+#title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 45px;
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+}
+
+#description {
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin-top: 6px;
+  font-weight: 200;
+  text-shadow: 1px 1px #434378;
+  margin-bottom: 32px;
+}
+
+#survey-form {
+  width: 720px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #262644;
+  border-radius: 7px;
+  padding-top: 45px;
+}
+
+/* select{
+  color: #757575;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin-top: 10px;
+  width: 630px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #757575;
+  text-indent: 14px;
+  opacity: 1;
+}
+input:placeholder-shown {
+  text-indent: 14px; /* for firefox */
+}
+
+#age > input {
+  padding-right: 15px;
+}
+
+#age > label > strong {
+  font-size: 13px;
+}
+
+select {
+  margin-top: 10px;
+  width: 630px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+#recommend-radio > input {
+  margin-top: 10px;
+}
+
+#improve > p > strong {
+  font-size: 12px;
+}
+
+#text-area-box {
+  margin-top: 8px;
+  width: 630px;
+  border-radius: 3px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+#submit {
+  margin-top: 35px;
+  color: white;
+  background-color: #37af65;
+  width: 630px;
+  height: 50px;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
